@@ -1,0 +1,24 @@
+==
+shell array: when key is not numberic
+bigxu@d5:~/workspace/setup-config/bak-to-d5$ array[x]=1; echo ${array[x]}; echo ${array[y]}
+1
+1
+
+http://stackoverflow.com/questions/3685970/check-if-an-array-contains-a-value
+==
+https://books.google.com.hk/books?id=9FSaScltd-kC&pg=PT314&lpg=PT314&dq=ssh+remote+script+---+stopped+by+SIGTTIN+---&source=bl&ots=ZQJM0pU5jZ&sig=KoIJi-RZp4FiSsSkO5dcS_A5YkQ&hl=en&sa=X&ved=0ahUKEwi2j_G56K_SAhXSq5QKHbfJBX8Q6AEIHzAB#v=onepage&q=ssh%20remote%20script%20---%20stopped%20by%20SIGTTIN%20---&f=false
+ssh -n 
+
+7.4.6.5 pseudo-terminal allocation
+
+-n      Redirects stdin from /dev/null (actually, prevents reading from stdin).  This must be used when ssh is run in the background.  A common trick is to use
+        this to run X11 programs on a remote machine.  For example, ssh -n shadows.cs.hut.fi emacs & will start an emacs on shadows.cs.hut.fi, and the X11 connec‐
+        tion will be automatically forwarded over an encrypted channel.  The ssh program will be put in the background.  (This does not work if ssh needs to ask
+        for a password or passphrase; see also the -f option.)
+
+==
+
+parase ini file
+https://sourceforge.net/projects/bbiniparser/
+
+

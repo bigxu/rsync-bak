@@ -1,0 +1,7 @@
+Host e1.bigxu.com
+	HostName e1.bigxu.com
+	Port 222
+	User root
+	IdentityFile ~/.ssh/rsa
+	IdentitiesOnly yes
+
